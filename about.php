@@ -18,7 +18,7 @@
   |
   <a href="art.html">Art</a>
   |
-  <a href="about.php">About Me</a>
+  <a href="about.html">About Me</a>
   |
   <a href="store.html"> Store</a>
   |
@@ -33,11 +33,7 @@
   <h2>
     Mi nombre es Orlando Corona
   </h2>
-  <ul>
-  <php for($i=1;$i<=5;$i++){ ?>
-  <li>Menu Item <php echo $i; ?> </li>
-  <php } ?>
-  </ul>
+  Hello, today is <?php echo date('l, F jS, Y'); ?>. 
   <img class = "center" src="social/aboutme.jpg">
 </body>
 <footer>
