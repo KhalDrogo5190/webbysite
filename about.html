@@ -3,42 +3,52 @@
 <html>
 <head>
   <title> Corona Prints </title>
-  <link rel="stylesheet" href="ref/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="ref/main.css">
+ <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
 </head>
 <header>
 <h1> Corona Prints
 </h1>
 </header>
 
-<nav>
-  |
-  <a href="index.html">Home</a>
-  |
-  <a href="art.html">Art</a>
-  |
-  <a href="about.php">About Me</a>
-  |
-  <a href="store.html"> Store</a>
-  |
-  <a href="cart.html"> Cart</a>
-  |
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Corona Prints</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="art.html">Art</a></li>
+      <li class="active"><a href="about.html">About Me</a></li>
+      <li><a href="store.html">Store</a></li>
+    </ul>
+  </div>
 </nav>
 
 <body>
-  <p>
+  <div class="jumbotron text-center">
+    <h1>My name is Orlando Corona</h1>
+    <p>This is why I started making art</p>
+  </div>
 
-  </p>
-  <h2>
-    Mi nombre es Orlando Corona
-  </h2>
-  <ul>
-  <php for($i=1;$i<=5;$i++){ ?>
-  <li>Menu Item <php echo $i; ?> </li>
-  <php } ?>
-  </ul>
-  <img class = "center" src="social/aboutme.jpg">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>Column 1</h3>
+        <p>Insert dramatic sob story here we all know your out for out money</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-6">
+        <h3>Column 2</h3>
+        <a href="store.html">
+        <button type="button" class="btn btn-primary">Link</button></a>
+      </div>
+    </div>
+  </div>
 </body>
 <footer>
   Follow my social media accounts :
