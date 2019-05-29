@@ -18,9 +18,7 @@
     </div>
     <ul class="nav navbar-nav">
       <li><a href="index.html">Home</a></li>
-      <li><a href="art.html">Art</a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="store.html">Store</a></li>
+      <li class="active"><a href="art.html">Art</a></li>
     </ul>
   </div>
 </nav>
@@ -31,11 +29,32 @@
       <div class="col-sm-6">
         <h2>"El Triste"</h2>
         <img class = "center" src="pic/pic_0002.jpg">
+        <button type="button" class="btn btn-info btn-xs"
+         data-toggle="modal" data-target="#myModal">
+         Zoom </button>
+        <div id="myModal" class="modal fade"
+        role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close"
+                data-dismiss="modal"> &times;</button>
+              </div>
+              <div class="modal-body">
+                <img class = "center" src="pic/pic_0002.jpg">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                data-dismiss="modal"> Close </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="col-sm-6">
         <h3>x/n remaining</h3>
         <h3>$xxx.xx</h3>
-        <h3>*This is where the paypal button needs to go</h3>
+        <button type="button" class="btn btn-primary">Paypal</button>
       </div>
     </div>
   </div>
@@ -43,11 +62,9 @@
 
 </body>
 <footer>
-  Follow my social media accounts :
-
+  <p>Follow my social media accounts :</p>
   <a href = "https://www.instagram.com/corona_prints/" target = '_blank'>
-  <img src="social/instagram.png">
-</a>
+  <img src="social/instagram.png"></a>
 </footer>
 
 
